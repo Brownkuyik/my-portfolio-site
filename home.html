@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brown Kuyik</title>
+    <!-- i need to go to font awesome site to create an account then click in the kit then add the script here -->
+    <!-- earch for the icon of ur choice and add -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+    <!-- customs style  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- start of header section  -->
+    <header class="header" id="header">
+        <div class="container">
+            <nav>
+                <div class="logo">Brown Profile</div>
+                <!-- <img src="C:\Users\kuyik\Documents\evento\evento\assets\img\logo\logo.png" alt="my logo" class="logo"> -->
+                <ul id="SideMenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="CloseMenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="OpenMenu()"></i>
+                
+            </nav>
+
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hello, I am <span>Brown Kuyik</span> from Nigeria, <br>You are welcome to my Portfolio site.</h1>
+            </div>
+        </div>
+    </header>
+    <!-- end of header section   -->
+    <!-- about start -->
+    <div id="about">
+        <div id="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="C:\Users\kuyik\Documents\evento\evento\assets\img\gallery\team2.png" alt="" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub">About me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Quis optio, dolores at modi commodi numquam velit fuga eos 
+                        eius? Dolores ratione nostrum eum consectetur
+                         ab iste fugiat dolore tenetur repellat.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Educations</p>
+                    </div>
+                    <div class="tab-content active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML</span><br>Being a certify Html programmer</li>
+                            <li><span>css</span><br>Have the knowledge of css</li>
+                            <li><span>js</span><br>Know basis as well as manipulation of webpage using js</li>
+                            <li><span>cyber security</span><br>Main idea being to give you a secured site.</li>
+                        </ul>
+                    </div><div class="tab-content" id="Experience">
+                        <ul>
+                            <li><span>2021 - 2022</span><br>Zuri backend authentication site</li>
+                            <li><span>2020 - 2021</span><br>Front end developer.</li>
+                            <li><span>2022 - current</span><br>wEB DEVELOPER</li>
+                            <li><span>2022 - current</span><br>Cyber security analyst at anywhere you may think of</li>
+                        </ul>
+                    </div><div class="tab-content" id="Education">
+                        <ul>
+                            <li><span>2011</span><br>NCI</li>
+                            <li><span>2022</span><br>UNIUYO</li>
+                            <li><span>2022</span><br>wholpinplus</li>
+                            <li><span>2022</span><br>codecamp</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- -----------------what i can offer you as my client------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Web developer</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem tenetur earum molestias facere. Blanditiis voluptatem nobis asperiores iste dolorem porro? Porro sint corrupti consectetur commodi, dolores suscipit at. Perferendis, esse.</p>
+                    <a href="#">learn more</a>
+                </div> 
+                <div>
+                    <h2>cyber security</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem tenetur earum molestias facere. Blanditiis voluptatem nobis asperiores iste dolorem porro? Porro sint corrupti consectetur commodi, dolores suscipit at. Perferendis, esse.</p>
+                    <a href="#">learn more</a>
+                </div> 
+                <div>
+                    <h2>mobile developer</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem tenetur earum molestias facere. Blanditiis voluptatem nobis asperiores iste dolorem porro? Porro sint corrupti consectetur commodi, dolores suscipit at. Perferendis, esse.</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+
+    <div class="portfolio" id="portfolio">
+        <div class="container">
+            <h1 class="sub">My Work</h1>
+            <div class="work_list">
+                <div class="work">
+                    <img src="C:\Users\kuyik\Downloads\Mentor\assets\img\course-2.jpg" alt="">
+                    <div class="layer">
+                        <h3>Zuri authentication site </h3>
+                        <p>My work was to Used the latests innovative ideas to create a well secured website for the company.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="C:\Users\kuyik\Downloads\Mentor\assets\img\course-1.jpg" alt="">
+                    <div class="layer">
+                        <h3>E-commence site </h3>
+                        <p>As part of my graduation demand, I was expected to bring out new idea on how to create a more secured site for the general public</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="C:\Users\kuyik\Downloads\Mentor\assets\img\course-details.jpg">
+                    <div class="layer">
+                        <h3>Cyber security analyst </h3>
+                        <p>working with codecamp company, i was given the position of a cyber security analyst to help protect the customers 
+                            who bestowed their information on the company from any kind of cyber related attack.
+                        </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <!-- ------------------------contact--------------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub">Contact me</h1>
+                    <p><i class="fas fa-paper-plane"></i> kuyikbrown1@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> +2348159823821</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fab fa-facebook"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-whatsapp"></i></a>
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                        <a href=""><i class="fab fa-github"></i></a>
+                    </div>
+                    <a href="C:\Users\kuyik\Documents\KUYIK BROWN- RESUME.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message"   rows="7" placeholder="Your message for me"></textarea>
+                        <button type="submit" class="btn">submit</button>
+                    </form>
+                    <!-- <span id="msg">Hello</span> -->
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @ Brown.<i class="fas fa-heart"></i> made by me</p>
+        </div>
+    </div>
+    <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+</body>
+<!-- java scripts side  -->
+<script src="scripts.js"></script>
+</html>
